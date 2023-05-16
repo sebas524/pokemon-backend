@@ -13,7 +13,14 @@
 4. run database
    `docker-compose up -d`
 
-5. reconstruct db with seed:
+5. clone file **.env.template** and rename to **.env**
+
+6. fill-out environmental variables in **.env**
+
+7. run dev app:
+   `yarn start:dev`
+
+8. reconstruct db with seed:
    `http://localhost:3000/api/v2/seed`
 
 ## stack being used:
