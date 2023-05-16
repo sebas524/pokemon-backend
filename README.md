@@ -13,6 +13,9 @@
 4. run database
    `docker-compose up -d`
 
+5. reconstruct db with seed:
+   `http://localhost:3000/api/v2/seed`
+
 ## stack being used:
 
 - mongodb
